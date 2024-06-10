@@ -1,0 +1,46 @@
+@import '../../styles/colors.scss';
+
+.video-section {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 24px;
+  padding-right: 145px;
+  padding-left: 197px;
+  width: 100%;
+  height: calc(100vh - 80px);
+  background-color: $text-4;
+  color: $white;
+  margin-bottom: 120px;
+}
+
+.video-area {
+  flex: 3;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-info {
+  display: flex;
+  gap: 106px;
+}
+
+.video-buttons {
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  gap: 24px;
+}
+
+.video-footer {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 32px;
+  width: 100%;
+
+  img {
+    filter: brightness(0) saturate(100%) invert(95%) sepia(99%) saturate(3%) hue-rotate(249deg) brightness(104%) contrast(101%);
+  }
+}

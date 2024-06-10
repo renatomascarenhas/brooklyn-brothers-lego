@@ -1,0 +1,14 @@
+@import '../../styles/colors.scss';
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px $background-3;
+  transition: background-image 0.3s ease;
+
+  &:hover{
+    cursor: pointer;
+    background-image: url('../../assets/images/texture.png');
+  }
+}

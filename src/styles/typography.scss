@@ -1,0 +1,133 @@
+h1 {
+  font-family: Cera Pro, sans-serif;
+  font-size: 68px;
+  font-weight: 400;
+  line-height: 91px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+h2 {
+  font-family: Cera Pro, sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 62.85px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+h3 {
+  font-family: Cera Pro, sans-serif;
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+
+h4 {
+  font-family: Cera Pro, sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.h4-bold {
+  font-family: Cera Pro, sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+p {
+  font-family: Cera Pro, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+
+.p-large {
+  font-family: Cera Pro, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 38px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.p-large-regular {
+  font-family: Cera Pro, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.p-small {
+  font-family: Cera Pro, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+  text-align: left;
+}
+
+.p-number {
+  font-family: Cera Pro;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 12px;
+  letter-spacing: -0.1em;
+  text-align: center;
+}
+
+label {
+  font-family: Cera Pro;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: 0.06em;
+  text-align: left;
+}
+
+@media screen and (max-width: 767px) {
+  /* Estilos para mobile */
+  h1 {
+    font-size: 38px;
+    line-height: 50px;
+  }
+
+  h2 {
+    font-size: 28px;
+    line-height: 42px;
+  }
+
+  h3 {
+    font-size: 24px;
+    line-height: 40px;
+  }
+
+  h4 {
+    font-size: 20px;
+    line-height: 38px;
+  }
+
+  .p-large {
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.01em;
+  }
+
+  .p-large-regular {
+    font-size: 18px;
+    line-height: 33px;
+  }
+}

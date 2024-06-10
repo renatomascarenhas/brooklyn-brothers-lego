@@ -1,0 +1,45 @@
+@import '../../../styles/colors.scss';
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+
+  border: 1px solid $black;
+  border-radius: 37px;
+
+  .btn-img {
+    width: 25px;
+    height: 25px;
+    transition: transform 0.3s ease;
+  }
+
+  &:hover {
+    cursor: pointer;
+    border-color: $blue;
+    color: $blue;
+
+    .btn-img {
+      filter: brightness(0) saturate(100%) invert(66%) sepia(91%) saturate(7441%) hue-rotate(188deg) brightness(84%) contrast(101%);
+      transform: translateX(5px);
+    }
+  }
+}
+
+.primary {
+  height: 64px;
+  padding: 18px 40px;
+  gap: 24px;
+}
+
+.secondary {
+  height: 48px;
+  padding: 10px 32px;
+  gap: 10px;
+}
+
+
+.left {
+  flex-direction: row-reverse;
+}

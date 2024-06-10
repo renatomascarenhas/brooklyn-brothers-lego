@@ -1,0 +1,117 @@
+@import '../../styles/colors.scss';
+
+.info-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+
+  &:last-child {
+    .section-wrapper {
+      border-bottom: none;
+    }
+  }
+}
+
+.anchor-space {
+  height: 80px;
+  width: 100%;
+}
+
+.section-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  border-top: solid 1px;
+  border-bottom: solid 1px;
+}
+
+.heading {
+  display: flex;
+  padding: 0 197px;
+  align-items: baseline;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.inner-section {
+  display: flex;
+  align-items: center;
+  gap: 196px;
+
+  .info-img {
+    height: 528px;
+    width: 940px;
+  }
+}
+
+.left-section {
+  flex-direction: row-reverse;
+  padding-right: 196px ;
+  height: 528px;
+
+  .text {
+    h3 {
+      text-align: right;
+    }
+
+    p {
+      text-align: right;
+    }
+  }
+}
+
+.right-section {
+  flex-direction: row;
+  padding-left: 196px;
+  height: 528px;
+
+  .text {
+    h3 {
+      text-align: left;
+    }
+
+    p {
+      text-align: left;
+    }
+  }
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 100%;
+}
+
+.orange {
+  border-color: $orange;
+}
+
+.blue {
+  border-color: $blue;
+}
+
+.yellow {
+  border-color: $yellow;
+}
+
+.red {
+  border-color: $red;
+}
+
+.green {
+  border-color: $green;
+}
+
+.grey{
+  border-color: $background-3
+}
+
+.black {
+  border-color: $black
+}
+
+.red-light {
+  border-color: $red-light;
+}
