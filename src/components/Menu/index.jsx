@@ -29,7 +29,14 @@ const Menu = ({isMenuOpen, onMenuClose}) => {
                 return (
                   <div key={button.title} className='pop-menu-button'>
                     <img src={button.imageSrc} />
-                    <h4>{button.title}</h4>
+                    <a
+                      href='#'
+                      onClick={() => {
+                        onMenuClose(false)
+                      }}
+                    >
+                      <h4>{button.title}</h4>
+                    </a>
                   </div>
                 )
               })
@@ -45,16 +52,16 @@ const Menu = ({isMenuOpen, onMenuClose}) => {
             {
               options.map(option => {
                 return (
-                  <p
+                  <a
                     className='p-large-regular pop-menu-button'
                     key={option}
+                    href={`/#${option}`}
                     onClick={() => {
                       onMenuClose(false)
-                      window.location.href = `/#${option}`
                     }}
                   >
                     {option}
-                  </p>)
+                  </a>)
               })
             }
           </div>
