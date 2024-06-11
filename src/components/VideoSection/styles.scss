@@ -11,6 +11,14 @@
   background-color: $text-4;
   color: $white;
   margin-bottom: 120px;
+
+  .mobile {
+    display: none;
+  }
+
+  .desktop {
+    display: flex;
+  }
 }
 
 .video-area {
@@ -42,5 +50,54 @@
 
   img {
     filter: brightness(0) saturate(100%) invert(95%) sepia(99%) saturate(3%) hue-rotate(249deg) brightness(104%) contrast(101%);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .video-section {
+    background-color: $background-1;
+    padding: 0px;
+    margin-bottom: 0px;
+    height: auto;
+
+    .video-area {
+      margin-bottom: 16px;
+      background-color: $text-4;
+      flex-direction: column;
+      justify-content: end;
+      align-items: end;
+      padding: 16px;
+
+      .video-text {
+        height: 40vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        flex-grow: 2;
+      }
+
+      .video-buttons {
+        flex-grow: 1;
+      }
+
+    }
+
+    .video-info {
+      padding: 16px;
+      color: $black;
+    }
+
+    .video-footer {
+      display: none;
+    }
+
+    .mobile {
+      display: flex;
+    }
+
+    .desktop {
+      display: none;
+    }
   }
 }

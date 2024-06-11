@@ -6,13 +6,19 @@ const VideoSection = () => {
   return (
     <section className='video-section'>
       <div className='video-area'>
-        <p className='p-large-regular'>{`video autoplay with no sound`}</p>
+        <div className='video-text'>
+          <p className='p-large-regular'>{`video autoplay with no sound`}</p>
+        </div>
+        <div className='video-buttons mobile'>
+          <IconButton size={80} imageSrc={icons.volumeX}/>
+          <IconButton size={64} imageSrc={icons.film}/>
+        </div>
       </div>
       <div className='video-info'>
         <div>
           <h1>Welcome to the Play Matters Interactive Lookbook</h1>
         </div>
-        <div className='video-buttons'>
+        <div className='video-buttons desktop'>
           <IconButton size={80} imageSrc={icons.volumeX}/>
           <IconButton size={64} imageSrc={icons.film}/>
         </div>

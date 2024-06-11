@@ -14,6 +14,10 @@ nav {
   &.menu-opened {
     display: none;
   }
+
+  &.menu-opened {
+    width: 100%;
+  }
 }
 
 .category {
@@ -62,6 +66,7 @@ nav {
 @media screen and (max-width: 767px) {
   nav {
     padding: 16px;
+    width: 100vw;
   }
 
   .anchors {
