@@ -9,7 +9,7 @@ const InfoSection = ({title, subtitle, color, topInfo, bottomInfo}) => {
       <div className='anchor-space' />
       <div className='heading'>
         <h4>{title}</h4>
-        <p>{subtitle}</p>
+        <p className={`${color}`}>{subtitle}</p>
       </div>
       <div className={`section-wrapper ${color}`}>
         {

@@ -61,7 +61,6 @@
     height: auto;
 
     .video-area {
-      margin-bottom: 16px;
       background-color: $text-4;
       flex-direction: column;
       justify-content: end;
@@ -69,7 +68,7 @@
       padding: 16px;
 
       .video-text {
-        height: 40vh;
+        height: 375px;
         display: flex;
         align-items: center;
         justify-content: center;
