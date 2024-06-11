@@ -38,7 +38,7 @@ const Menu = ({isMenuOpen, onMenuClose}) => {
         </div>
         <div className='themes'>
           <div className='heading'>
-            <div className='line'/>
+            <hr className='line'/>
             <p className='p-large'>Themes</p>
           </div>
           <div className='pop-menu-buttons'>

@@ -36,6 +36,7 @@
 }
 
 .left-menu {
+  width: 510px;
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -54,14 +55,14 @@
 
   .themes{
     .heading{
+      width: 100%;
       display: flex;
       align-items: center;
       gap: 12px;
 
       .line {
-        border-top: 1px solid;
-        height: 1px;
-        width: 100%;
+        color: $black;
+        width: 197px;
       }
     }
   }
@@ -87,6 +88,7 @@
   }
 
   .left-menu {
+    width: auto;
     .header {
       position: fixed;
       padding-top: 0;
@@ -106,10 +108,14 @@
       margin-bottom: 64px;
 
       .heading{
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
         width: 100%;
         .line {
           border-top: 1px solid;
           height: 1px;
+          width: 16px;
         }
       }
     }
